@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+  <test name="AllTests">
+    <classes>
+    <class name ="com.LoginTest"/>
+      <class name="com.ProductTest" />
+      <class name="com.WorkOrderTest" />
+      <class name="com.AOIScanTest" />
+      <class name="com.AOIReportTest" />
+      <class name="com.WaveInputScanTest" />
+      <class name="com.WaveOutputScanTest" />
+      <class name="com.WaveReportTest" />
+      <class name="com.ReworkTest" />
+      <class name="com.ReworkReportTest" />
+      <class name="com.MasterReportTest" />
+    </classes>
+  </test>
+</suite>
